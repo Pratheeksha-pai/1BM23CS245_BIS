@@ -30,7 +30,7 @@ model.fit(X, y)
 y_pred = model.predict(X)
 
 # Step 5: Display the evolved formula
-print("\n🧬 Discovered Expression:")
+print("\n Discovered Expression:")
 print(model._program)
 
 # Step 6: Plot actual vs predicted
